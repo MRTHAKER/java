@@ -42,6 +42,7 @@ int lo=Integer.parseInt(s1);
 int la=Integer.parseInt(s2);
 
 	int summ=lo+la;
+		l1.setText("sum is"+summ);
 }
 else if(b.getActionCommand().equals("Sub"))
 {
